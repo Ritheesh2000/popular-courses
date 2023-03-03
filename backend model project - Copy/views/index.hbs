@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<h1 style="text-align: center;"><img src="https://images-platform.99static.com//KlBLMX8dQrcq6hZGnxf5HSnG29I=/8x543:525x1060/fit-in/500x500/99designs-contests-attachments/123/123360/attachment_123360235" alt="" width="50px;" height="50px;"> POPULAR COURSES</h1>
+<body>
+<style>
+
+    /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-back {
+  transform: rotateX(180deg);
+}
+
+
+/*extra fields start*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  }
+
+  .button:hover {
+  background-color: #555;
+  }
+
+  @media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+  }
+
+/*end fields*/
+  </style>
+   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Courses</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+  <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+  </li>   
+     
+  <li class="nav-item">
+  <a class="nav-link" href="#about">ABOUT Us</a>
+  </li>
+      
+  <li class="nav-item">
+  <a class="nav-link" href="/employee">STUDENT LIST</a>
+  </li>
+          
+  <li class="nav-item">
+  <a class="nav-link" href="/employee/list">VIEW ALL DETAILS</a>
+    
+  </li>
+
+  
+  </ul>
+    
+  </div>
+  </nav>
+
+  <div>
+  <img src="https://www.classcentral.com/report/wp-content/uploads/2020/06/top-100-course-pandemic.png" class="img-fluid" alt="..." style="width: 1500px; height: 500px;">
+  </div><br>
+
+<!---start-->
+
+  <div class="container">
+  <div class="row">
+  <div  class="col-md-4">
+  <div class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+  <img src="https://5.imimg.com/data5/SELLER/Default/2021/9/TW/AP/QF/137750033/23sep21-juniun-sofftware-500x500.jpg" alt="" style="width: 100%; height:100%">
+  </div>
+    
+  <div class="flip-box-back">
+  <img src="https://cdn.xxl.thumbs.canstockphoto.com/training-courses-road-sign-illustration-design-over-a-white-background-eps-vectors_csp15674434.jpg" alt=""  style="width: 100%; height:100%">
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div  class="col-md-4">
+  <div class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75ks8dMD_VKRAC5EFdsgQAOw8YRwvmkyG0Q&usqp=CAU" alt="" style="width: 100%; height:100%">
+  </div>
+  <div class="flip-box-back">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmJLxgUN--wy46jL_pVliXS1YBGpQnhw87pQ&usqp=CAU" alt="" style="width: 100%; height:100%">
+  </div>
+  </div>
+  </div>
+
+
+  </div>
+  <div  class="col-md-4">
+  <div class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+  <img src="https://d13loartjoc1yn.cloudfront.net/article/Software%20Engineering%20Courses%20After%2012th.jpg" alt="" style="width: 100%; height:100%">
+  </div>
+  <div class="flip-box-back">
+  <img src="https://www.nielit.gov.in/sites/default/files/Aurangabad/WhatsApp%20Image%202020-11-12%20at%2012.01.16%20PM.jpeg" alt="" style="width: 100%; height:100%">
+  </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+
+<!--end-->
+
+  <div class="about-section" id="about" style="margin-top: 20px;">
+  <h1>About Us Page</h1>
+  <p>POPULAR courses is a one-stop shop for all your employable skills training requirements. To help students maximize their education, we provide a variety of courses, certificates, placement support, and career preparation resources. "Best Data Science Training centre in Coimbatore Python Training Centre Ethical Hacking Training centre PLC SCADA Training Centre Network Engineering - Routing & Switching Network Security Ethical Hacking Cloud Computing Cyber Security Analyst C Programming C++ Django Java Electronic Design Automation Industrial.</p>
+  </div>
+
+  <h2 style="text-align:center">Our Courses</h2>
+  <div class="row">
+  <div class="column">
+  <div class="card">
+  <img src="https://www.shutterstock.com/image-illustration/web-development-developer-resource-network-600w-1334062031.jpg" alt="Jane" style="width:100%;height:35vh">
+  <div class="container">
+  <h2>FULL STACK DEVELOPER</h2>
+  <p> Full Stack Course will help you to get Placed in Top MNC. Best Full Stack Courses. Mern Stack Course Offered by Experts. Learn Full Stack Development in 8 Weeks. Enroll Now. Flexible Timings. Interview Preparation. Fully Hands-on Training. Affordable Fees.</p>
+  <p>developerteam@example.com</p>
+  <p><button class="button">Readmore</button></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="card">
+  <img src="https://www.shutterstock.com/image-illustration/powerful-programming-language-word-python-600w-401797897.jpg" alt="Mike" style="width:100% ;height:35vh">
+  <div class="container">
+  <h2>PYTHON</h2>
+  <p>Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.</p>
+  <p>pythoncourses@example.com</p>
+  <p><button class="button">Readmore</button></p>
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="card">
+  <img src="https://thumbs.dreamstime.com/b/digital-marketing-business-concept-business-concept-businessman-click-digital-marketing-button-virtual-screen-text-typography-125648024.jpg" alt="John" style="width:100%;height:250px" >
+  <div class="container">
+  <h2>DIGITAL MARKETING</h2>
+  <p>The Digital and Social Media Marketing programme from the Indian Institute of Management, Calcutta will enable high-potential professionals to gain a deeper understanding of digital marketing analytics and develop capabilities the critical levers digital marketing. strategy programme will help participants identify the strategic need for digital marketing.</p>
+  <p>dititalmarkrting@example.com</p>
+  <p><button class="button">Readmore</button></p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>
